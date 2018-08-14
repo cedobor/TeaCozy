@@ -1,0 +1,28 @@
+body {
+	background-color: black;
+	font-family: Helvetica;
+	color: seashell;
+	opacity: 0.9;
+}
+
+.header {
+	position: fixed;
+	display: inline-flex;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	z-index: 3;
+	background-color: black;
+	top: 0px;
+	
+	
+}
+
+.body {
+	position: relative;
+	top: 62px;
+	z-index: 1;
+}
+.header-img {
+	padding-left: 10px;
+}
