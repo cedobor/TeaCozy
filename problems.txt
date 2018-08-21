@@ -1,0 +1,3 @@
+Space between myrtle-tea and bizarre bedford is too large
+Get the location header to be on a line of its own
+Keep Tea Cozy logo on the left while Mission Featured Tea and Locations are on the right

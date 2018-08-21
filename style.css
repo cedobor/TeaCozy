@@ -1,8 +1,10 @@
 body {
 	background-color: black;
 	font-family: Helvetica;
+	font-size: 22px;
 	color: seashell;
 	opacity: 0.9;
+	font-weight: bold;
 }
 
 .header {
@@ -14,8 +16,12 @@ body {
 	z-index: 3;
 	background-color: black;
 	top: 0px;
+	align-items: center;
+}
 	
-	
+.header-nav span {
+	margin: 10px;
+
 }
 
 .body {
@@ -25,4 +31,147 @@ body {
 }
 .header-img {
 	padding-left: 10px;
+	height: 50px;
+}
+
+.intro {
+	position: relative;
+	background-image: url("./resources/images/img-mission-background.jpg");
+background-repeat: no-repeat;
+background-position: center;
+justify-content: center;
+margin: 0 auto;
+	height: 700px;
+	width: 1200px;
+
+}
+
+.mission{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 250px;
+	margin: 0 auto;
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+ .mission h2 {
+ 	margin: 10px;
+ }
+
+ .mission h4 {
+ 	margin: 10px;
+ }
+
+.featured-tea {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.featured-tea-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fall-berry-blitz {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.spiced-rum-tea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.seasonal-donuts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.myrtle-ave-tea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.bedford-bizarre-tea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.picture{
+	height: 200px;
+	width: 300px;
+}
+
+.location {
+background-image: url("./resources/images/img-locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#location {
+display: block;
+}
+.downtown {
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 300px;
+margin: 40px;
+align-items: center;
+	background-color: black;
+}
+
+.east-bayside {
+	display: flex;
+flex-direction: column;
+width: 300px;
+height: 300px;
+margin: 40px;
+align-items: center;
+	background-color: black;
+}
+
+.oakdale {
+	display: flex;
+flex-direction: column;
+width: 300px;
+height: 300px;
+margin: 40px;
+align-items: center;
+	background-color: black;
+}
+
+.footer-start {
+height: 200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: bold;
+margin-bottom: 30px;
+	}
+
+.footer-end {
+	float: left;
+	font-weight: bold;
+	margin-left: 20px;
+}
+a:link, a:visited, a:hover{
+	color: seashell
 }
